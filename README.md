@@ -2,7 +2,7 @@
 A batch script to make your VM undetectable from Safe Exam Browser (SEB), the anti-cheat browser used by most schools and universities to make students take exams. This script has been made in March 2020 (start of the pandemic, start of online exams) but I'm publishing it now because apparently these flaws have still not been fixed.
 
 # Usage
-Right click > Run as administrator, it'll automatically do the rest and then close. Keep in mind that the registry values edited by this script automatically restore after every reboot, so you'll need to re-run this each time.
+You'll need to run this in your VM (not in your host). Right click > Run as administrator, it'll automatically do the rest and then close. Keep in mind that the registry values edited by this script automatically restore after every reboot, so you'll need to re-run this each time.
 
 # How to restore
 Reboot Windows.
