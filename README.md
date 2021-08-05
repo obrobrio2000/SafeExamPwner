@@ -104,7 +104,3 @@ used by malware for the general public.
 
 
 [-] Feel free to RE me, check log file for more information.
-\```
-
-</p>
-</details>  
