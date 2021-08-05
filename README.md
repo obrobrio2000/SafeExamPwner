@@ -1,5 +1,5 @@
 # SafeExamPwner
-A batch script to make your VM undetectable from Safe Exam Browser (SEB), the anti-cheat browser used by most schools and universities to make students take exams. This script has been made in March 2020 (start of the pandemic, start of online exams) but still these flaws have not been fixed.
+A batch script to make your (Windows) VM undetectable from Safe Exam Browser (SEB), the anti-cheat browser used by most schools and universities to make students take exams. This script has been made in March 2020 (start of the pandemic, start of online exams) but still these flaws have not been fixed.
 
 # Usage
 Before booting the VM, add all the content of AddToYourVmxFile.vmx file at the end of your VM's .vmx file (backup recommended). Then start the VM and run (right click > run as administrator) SafeExamPwner.bat in it (not in your host PC). Keep in mind that while the .vmx file modifications are permanent, the registry values edited by this script automatically restore after every reboot (so you'll need to re-run it each time).
@@ -8,10 +8,10 @@ Before booting the VM, add all the content of AddToYourVmxFile.vmx file at the e
 To restore your old VMX file, restore the backup you made before editing it (because you did, right?). To restore registry modifications made by the script, just reboot the VM.
 
 # Disclaimer
-I'm NOT responsible for what you'll do with this script and for any loss or damage caused by it. Use at your own risk. This is for demonstration use only, does not encourage cheating during exams, and has never been tested or used for any illegal purpose. This script has been published only to make SEB developers aware of these flaws so that they can be fixed in future SEB updates.
+I'm NOT responsible for what you'll do with this and for any loss or damage caused by it. Use at your own risk. This is for demonstration use only, does not encourage cheating during exams, and has never been tested or used for any illegal purpose. This has been published only to make SEB developers aware of these flaws so that they can be fixed in future SEB updates.
 
 # Other purposes
-Actually this script can be used for basically any software that detects VMs by registry keys. This gives you a good level of VM undetectability, as you can see by these [Pafish](https://github.com/a0rtega/pafish) results:
+Actually this can be used for basically any software that detects VMs by registry keys. It gives you a good level of VM undetectability, as you can see by these [Pafish](https://github.com/a0rtega/pafish) results:
 <details>
 <summary>Click to expand...</summary>
 <p>
