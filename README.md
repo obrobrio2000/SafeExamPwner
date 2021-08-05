@@ -8,4 +8,4 @@ Right click > Run as administrator, it'll automatically do the rest and then clo
 Reboot Windows.
 
 # Disclaimer
-I'm NOT responsible for what you'll do with this script or for any loss or damage caused by it. Use at your own risk. This is for demonstration use only, does not encourage cheating during exams, and has never been tested or used for any illegal purpose. This script has been published only to make SEB developers aware of these flaws so that they can be fixed in future SEB updates. This script has been made in March 2020 (start of the pandemic, start of online exams) but I'm publishing it now because apparently these flaws have still not been fixed.
+I'm NOT responsible for what you'll do with this script or for any loss or damage caused by it. Use at your own risk. This is for demonstration use only, does not encourage cheating during exams, and has never been tested or used for any illegal purpose. This script has been published only to make SEB developers aware of these flaws so that they can be fixed in future SEB updates.
