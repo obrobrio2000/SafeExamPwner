@@ -1,3 +1,4 @@
+ECHO SafeExamPwner (v0.1.0, March 2020)
 reg add "HKLM\HARDWARE\DESCRIPTION\System" /v "SystemBiosVersion" /t REG_MULTI_SZ /d INTEL /f
 reg add "HKLM\HARDWARE\DESCRIPTION\System\BIOS" /v "BIOSVersion" /t REG_SZ /d INTEL /f
 reg add "HKLM\HARDWARE\DESCRIPTION\System\BIOS" /v "BIOSVendor" /t REG_SZ /d INTEL /f
