@@ -8,12 +8,12 @@ You'll need to run this in your VM (not in your host). Right click > Run as admi
 Reboot Windows.
 
 # Other purposes
-Actually this script can be used for basically any software that detects VMs by registry keys. This gives you a surprising amount of undetectability, as you can see by these Pafish results:
+Actually this script can be used for basically any software that detects VMs by registry keys. This gives you a surprising amount of undetectability, as you can see by these [Pafish](https://github.com/a0rtega/pafish) results:
 <details>
-<summary>I could use some help...</summary>
+<summary>Click to expand...</summary>
 <p>
 
-```aaa
+```pafish
 * Pafish (Paranoid fish) *
 
 Some anti(debugger/VM/sandbox) tricks
