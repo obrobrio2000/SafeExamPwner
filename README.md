@@ -7,8 +7,11 @@ You'll need to run this in your VM (not in your host). Right click > Run as admi
 # How to restore
 Reboot Windows.
 
+# Disclaimer
+I'm NOT responsible for what you'll do with this script or for any loss or damage caused by it. Use at your own risk. This is for demonstration use only, does not encourage cheating during exams, and has never been tested or used for any illegal purpose. This script has been published only to make SEB developers aware of these flaws so that they can be fixed in future SEB updates.
+
 # Other purposes
-Actually this script can be used for basically any software that detects VMs by registry keys. This gives you a surprising amount of undetectability, as you can see by these [Pafish](https://github.com/a0rtega/pafish) results:
+Actually this script can be used for basically any software that detects VMs by registry keys. This gives you a good level of VM undetectability, as you can see by these [Pafish](https://github.com/a0rtega/pafish) results:
 <details>
 <summary>Click to expand...</summary>
 <p>
@@ -105,6 +108,3 @@ used by malware for the general public.
 
 </p>
 </details>  
-
-# Disclaimer
-I'm NOT responsible for what you'll do with this script or for any loss or damage caused by it. Use at your own risk. This is for demonstration use only, does not encourage cheating during exams, and has never been tested or used for any illegal purpose. This script has been published only to make SEB developers aware of these flaws so that they can be fixed in future SEB updates.
