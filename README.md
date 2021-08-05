@@ -2,7 +2,7 @@
 A batch script to make your VM undetectable from Safe Exam Browser (SEB), the anti-cheat browser used by most schools and universities to make students take exams. This script has been made in March 2020 (start of the pandemic, start of online exams) but still these flaws have not been fixed.
 
 # Usage
-Before booting the VM, copy all the content of VMwareVMX.vmx file at the end of your VM's .vmx file (don't override existing content of your .vmx file). Then start the VM and run (right click > run as administrator) SafeExamPwner.bat in it (not in your host PC). Keep in mind that while the .vmx file modifications are permanent, the registry values edited by this script automatically restore after every reboot (so you'll need to re-run it each time).
+Before booting the VM, add all the content of AddToYourVmxFile.vmx file at the end of your VM's .vmx file (don't override existing content of your .vmx file, just add it at the end). Then start the VM and run (right click > run as administrator) SafeExamPwner.bat in it (not in your host PC). Keep in mind that while the .vmx file modifications are permanent, the registry values edited by this script automatically restore after every reboot (so you'll need to re-run it each time).
 
 # How to restore
 Reboot Windows.
