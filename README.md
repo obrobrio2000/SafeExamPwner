@@ -11,7 +11,7 @@ To restore your old VMX file, restore the backup you made before editing it (bec
 I'm NOT responsible for what you'll do with this and for any loss or damage caused by it. Use at your own risk. This is for demonstration use only, does not encourage cheating during exams, and has never been tested or used for any illegal purpose. This has been published only to make SEB developers aware of these flaws so that they can be fixed in future SEB updates.
 
 # Other purposes
-Actually this can be used for most softwares that detect VMs by registry keys. It gives you a good level of VM undetectability, as you can see by these [Pafish](https://github.com/a0rtega/pafish) results:
+Actually this can be used for most softwares that detect VMs by registry keys (one example where this doesn't work: Respondus). It gives you a good level of VM undetectability, as you can see by these [Pafish](https://github.com/a0rtega/pafish) results:
 <details>
 <summary>Click to expand...</summary>
 <p>
