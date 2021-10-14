@@ -14,7 +14,7 @@ I'm NOT responsible for what you'll do with this and for any loss or damage caus
 Other than SEB, it has only been tested with Respondus Lockdown Browser, and apparently it doesn't work, it will still detect your VM.
 
 # Other purposes
-Actually this can be used for most softwares that detect VMs by registry keys. It gives you a good level of VM undetectability, as you can see by these [Pafish](https://github.com/a0rtega/pafish) results:
+Actually this can be used for most software that detect VMs by registry keys. It gives you a good level of VM undetectability, as you can see by these [Pafish](https://github.com/a0rtega/pafish) results:
 <details>
 <summary>Click to expand...</summary>
 <p>
