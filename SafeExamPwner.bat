@@ -1,4 +1,5 @@
 ECHO SafeExamPwner (v0.1.0, March 2020)
+set "params=%*" && cd /d "%~dp0" && pushd "%~dp0" && ( if exist "%temp%\getadmin.vbs" del "%temp%\getadmin.vbs" ) && fsutil dirty query %systemdrive% 1>nul 2>nul || (  echo Set UAC = CreateObject^("Shell.Application"^) : UAC.ShellExecute "cmd.exe", "/k cd ""%~sdp0"" && %~s0 %params%", "", "runas", 1 >> "%temp%\getadmin.vbs" && "%temp%\getadmin.vbs" && exit /B )
 reg add "HKLM\HARDWARE\DESCRIPTION\System" /v "SystemBiosVersion" /t REG_MULTI_SZ /d INTEL /f
 reg add "HKLM\HARDWARE\DESCRIPTION\System\BIOS" /v "BIOSVersion" /t REG_SZ /d INTEL /f
 reg add "HKLM\HARDWARE\DESCRIPTION\System\BIOS" /v "BIOSVendor" /t REG_SZ /d INTEL /f
@@ -26,3 +27,5 @@ reg add "HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e97d-e325-11ce-bfc1-08
 reg add "HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e97d-e325-11ce-bfc1-08002be10318}\0034" /v "HardwareInformation.DacType" /t REG_SZ /d INTEL /f
 reg add "HKLM\SYSTEM\CurrentControlSet\Control\Video\{7B7FACFD-546F-11EB-9CF1-806E6F6E6963}\0000" /v "HardwareInformation.ChipType" /t REG_SZ /d INTEL /f
 reg add "HKLM\SYSTEM\CurrentControlSet\Control\Video\{7B7FACFD-546F-11EB-9CF1-806E6F6E6963}\0000" /v "HardwareInformation.DacType" /t REG_SZ /d INTEL /f
+copy "SafeExamPwner.bat" "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp" /Y
+exit
